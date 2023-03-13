@@ -23,3 +23,5 @@ Set-Content -Path $temp -Value "# Challenge Link: https://adventofcode.com/$YEAR
 # Create input File 
 New-Item 'input.in' -ItemType File
 New-Item 'Jinput.in' -ItemType File
+# Go out of the Folder
+cd ..
